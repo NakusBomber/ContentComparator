@@ -64,9 +64,9 @@ static partial class Program
     {
         while (true)
         {
-            Console.Write("Input path to webpage: ");
+            Console.Write("Input path to webpage ('q' for quit): ");
             var line = Console.ReadLine();
-            if (string.IsNullOrEmpty(line) || !line.StartsWith(Uri.UriSchemeHttp))
+            if (string.IsNullOrEmpty(line))
             {
                 Console.WriteLine("Path must be not empty and valid");
                 Console.ReadKey();
@@ -76,6 +76,13 @@ static partial class Program
             if(line.ToLower() == "q")
             {
                 break;
+            }
+
+            if (!line.StartsWith(Uri.UriSchemeHttp))
+            {
+                Console.WriteLine();
+                Console.ReadKey();
+                continue;
             }
 
             urls.Add(line);
