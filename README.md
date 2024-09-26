@@ -65,3 +65,9 @@ For two vectors (A) and (B), cosine similarity is given by:
 ## Tools and Libraries
 - **Programming Language:** C#
 - **Libraries:** `MigraDoc` for generating PDF reports.
+
+## Results
+![image](https://github.com/user-attachments/assets/0aecbdd3-8466-4de3-b818-6f69e5229dcd)
+![image](https://github.com/user-attachments/assets/942d2ff8-275b-40e0-90e4-564d66a58d9d)
+![image](https://github.com/user-attachments/assets/54866912-5f6d-4237-ba36-5c93ffefe663)
+
